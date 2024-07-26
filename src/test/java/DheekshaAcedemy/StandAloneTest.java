@@ -23,6 +23,8 @@ WebDriverManager.chromedriver().setup();
 WebDriver driver= new ChromeDriver();
 String productname="ZARA COAT 3";
 
+//simple comment
+
 driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 driver.get("https://rahulshettyacademy.com/client");
