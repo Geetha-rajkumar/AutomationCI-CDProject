@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 8, Errors: 0, Skipped: 5, Time elapsed: 7.575 s <<< FAILURE! -- in TestSuite
-DheekshaAcedemy.ErrorValidationsTest.launchApplication -- Time elapsed: 5.735 s <<< FAILURE!
+Tests run: 13, Failures: 8, Errors: 0, Skipped: 5, Time elapsed: 16.92 s <<< FAILURE! -- in TestSuite
+DheekshaAcedemy.ErrorValidationsTest.launchApplication -- Time elapsed: 12.47 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
 Host info: host: 'LAPTOP-1Q6O13EU', ip: '192.168.29.35'
@@ -52,7 +52,7 @@ Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: tru
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
 
-DheekshaAcedemy.SubmitOrderTest.launchApplication -- Time elapsed: 5.736 s <<< FAILURE!
+DheekshaAcedemy.SubmitOrderTest.launchApplication -- Time elapsed: 12.48 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
 Host info: host: 'LAPTOP-1Q6O13EU', ip: '192.168.29.35'
@@ -102,7 +102,7 @@ Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: tru
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
 
-DheekshaAcedemy.SubmitOrderTest.tearDown -- Time elapsed: 0.173 s <<< FAILURE!
+DheekshaAcedemy.SubmitOrderTest.tearDown -- Time elapsed: 0.044 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
 	at DheekshaAcedemy.TestComponents.BaseTest.tearDown(BaseTest.java:104)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -131,7 +131,7 @@ java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.qui
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
 
-DheekshaAcedemy.ErrorValidationsTest.tearDown -- Time elapsed: 0.175 s <<< FAILURE!
+DheekshaAcedemy.ErrorValidationsTest.tearDown -- Time elapsed: 0.045 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
 	at DheekshaAcedemy.TestComponents.BaseTest.tearDown(BaseTest.java:104)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -160,7 +160,7 @@ java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.qui
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
 
-DheekshaAcedemy.SubmitOrderTest.launchApplication -- Time elapsed: 1.259 s <<< FAILURE!
+DheekshaAcedemy.ErrorValidationsTest.launchApplication -- Time elapsed: 1.969 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
 Host info: host: 'LAPTOP-1Q6O13EU', ip: '192.168.29.35'
@@ -210,7 +210,7 @@ Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: tru
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
 
-DheekshaAcedemy.SubmitOrderTest.tearDown -- Time elapsed: 0.002 s <<< FAILURE!
+DheekshaAcedemy.ErrorValidationsTest.tearDown -- Time elapsed: 0.003 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
 	at DheekshaAcedemy.TestComponents.BaseTest.tearDown(BaseTest.java:104)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -239,7 +239,7 @@ java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.qui
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
 
-DheekshaAcedemy.ErrorValidationsTest.launchApplication -- Time elapsed: 0.008 s <<< FAILURE!
+DheekshaAcedemy.SubmitOrderTest.launchApplication -- Time elapsed: 0.032 s <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
 Host info: host: 'LAPTOP-1Q6O13EU', ip: '192.168.29.35'
@@ -289,7 +289,7 @@ Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: tru
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1570)
 
-DheekshaAcedemy.ErrorValidationsTest.tearDown -- Time elapsed: 0.004 s <<< FAILURE!
+DheekshaAcedemy.SubmitOrderTest.tearDown -- Time elapsed: 0.004 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
 	at DheekshaAcedemy.TestComponents.BaseTest.tearDown(BaseTest.java:104)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)

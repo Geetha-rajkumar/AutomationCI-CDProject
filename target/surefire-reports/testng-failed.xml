@@ -4,18 +4,6 @@
   <listeners>
     <listener class-name="DheekshaAcedemy.TestComponents.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="ErrorValidationsTest(failed)" verbose="0">
-    <classes>
-      <class name="DheekshaAcedemy.ErrorValidationsTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="LoginErrorValidation"/>
-          <include name="launchApplication"/>
-          <include name="ProductErrorValidaion"/>
-        </methods>
-      </class> <!-- DheekshaAcedemy.ErrorValidationsTest -->
-    </classes>
-  </test> <!-- ErrorValidationsTest(failed) -->
   <test thread-count="5" parallel="tests" name="SubmitOrderTest(failed)" verbose="0">
     <classes>
       <class name="DheekshaAcedemy.SubmitOrderTest">
@@ -28,4 +16,16 @@
       </class> <!-- DheekshaAcedemy.SubmitOrderTest -->
     </classes>
   </test> <!-- SubmitOrderTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ErrorValidationsTest(failed)" verbose="0">
+    <classes>
+      <class name="DheekshaAcedemy.ErrorValidationsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginErrorValidation"/>
+          <include name="launchApplication"/>
+          <include name="ProductErrorValidaion"/>
+        </methods>
+      </class> <!-- DheekshaAcedemy.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- ErrorValidationsTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

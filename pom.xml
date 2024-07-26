@@ -98,7 +98,7 @@
 	</profile>
 	
 	<profile>
-		<id>Purchase></id>
+		<id>Purchase</id>
 		  <build>
 	<pluginManagement>
 		<plugins>
